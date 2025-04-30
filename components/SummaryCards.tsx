@@ -4,7 +4,10 @@ import { useEffect, useState } from "react";
 export default function SummaryCards() {
   const [totalExpenses, setTotalExpenses] = useState(0);
   const [recentTransactions, setRecentTransactions] = useState<any[]>([]);
-  const [categoryBreakdown, setCategoryBreakdown] = useState<any>({});
+  // const [categoryBreakdown, setCategoryBreakdown] = useState<any>({});
+  const [categoryBreakdown, setCategoryBreakdown] = useState<
+    Record<string, number>
+  >({});
 
   useEffect(() => {
     const fetchData = async () => {
