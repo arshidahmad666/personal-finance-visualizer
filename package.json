@@ -1,0 +1,29 @@
+{
+  "name": "personal-finance-visualizer",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@shadcn/ui": "^0.0.4",
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.1.2",
+    "dotenv": "^16.5.0",
+    "mongoose": "^8.14.1",
+    "next": "^15.3.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^2.15.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.3.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-react": "^7.37.5",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  }
+}
